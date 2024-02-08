@@ -1,8 +1,8 @@
 <template>
-  <div class="queueBlockAvailable">
-    <div class="nameQueueAndTeacher">
-      <div class="nameQueue">{{queue_data.name}}</div>
-      <div class="nameTeacher">{{queue_data.teacher}}</div>
+  <div class="turnBlockAvailable">
+    <div class="nameTurnAndTeacher">
+      <div class="nameTurn">{{turn_data.name}}</div>
+      <div class="nameTeacher">{{turn_data.teacher}}</div>
     </div>
     <div class="divRightButton">
       <router-link to="/queue">
@@ -11,7 +11,7 @@
     </div>
     <div class="moreDetailed">
       <b>Подробнее: </b>
-      {{queue_data.more}}
+      {{turn_data.more}}
     </div>
   </div>
 </template>
@@ -23,7 +23,7 @@ export default {
   name: 'blockAvailable',
   components: {MainButton},
   props: {
-    queue_data: {
+    turn_data: {
       type: Object,
       default() {
         return {}

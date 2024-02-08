@@ -2,19 +2,19 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-md-12">
-        <div class="image">
+        <div class="eturnImg">
           <img src="img/mainImg.svg">
         </div>
-        <div class="mainInfoTxt">
-          <h1 class="koyomochka">
+        <div class="threeStepsTxt">
+          <h1 class="headbandThreeSteps">
             Всего три простых шага!
           </h1>
         </div>
-        <div class="listTxt">
+        <div class="listStepsTxt">
           <ol>
-            <li class="mainText">Авторизируйся через <b>ETU ID</b></li>
-            <li class="mainText">Выбери или создай список</li>
-            <li class="mainText">Жди своей очереди!</li>
+            <li class="stepTxt">Авторизируйся через <b>ETU ID</b></li>
+            <li class="stepTxt">Выбери или создай список</li>
+            <li class="stepTxt">Жди своей очереди!</li>
           </ol>
         </div>
         <div class="mainButton">

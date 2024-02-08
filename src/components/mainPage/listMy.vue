@@ -1,8 +1,8 @@
 <template>
   <block-on-main-page
-    v-for="block in queue"
+    v-for="block in turn"
     :key="block.teacher"
-    :queue_data="block"
+    :turn_data="block"
   />
 </template>
 
@@ -16,7 +16,7 @@ export default {
   props: {},
   data() {
     return {
-      queue: [
+      turn: [
         {
           name: "Сдача ТОЭ",
           teacher: "Купова Анастасия Викторовна",

@@ -4,11 +4,11 @@ body{
   font-family: 'Exo 2', sans-serif;
 }
 
-.mainInfoTxt {
+.threeStepsTxt {
   padding: 150px 100px 10px;
 }
 
-.listTxt {
+.listStepsTxt {
   text-align: center;
   list-style-position: inside;
 }
@@ -47,7 +47,7 @@ ol li:before {
   border-radius: 12px;
 }
 
-.image {
+.eturnImg {
   position: relative;
   left: 0px;
   top: 110px;
@@ -65,7 +65,7 @@ ol li:before {
   margin: 30px 0px 0px 0px;
 }
 
-.koyomochka {
+.headbandThreeSteps {
   border: 3px solid;
   border-radius: 25px;
   padding: 12px 10px 12px 10px;
@@ -78,5 +78,9 @@ ol li:before {
   padding: 8px 0px 7px 0px;
   color: $text-color;
   font-size: 20px;
+}
+
+.stepTxt {
+  color: $text-second-color;
 }
 

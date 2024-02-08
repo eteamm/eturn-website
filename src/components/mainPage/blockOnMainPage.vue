@@ -1,13 +1,13 @@
 <template>
     <div class="queueBlock1">
       <div class="nameQueue">
-        {{queue_data.name}}
+        {{turn_data.name}}
       </div>
       <div class="nameTeacher">
-        {{ queue_data.teacher }}
+        {{ turn_data.teacher }}
       </div>
       <div class="quantityPeople">
-        {{queue_data.quantity}} человек
+        {{turn_data.quantity}} человек
       </div>
     </div>
 </template>
@@ -16,7 +16,7 @@
 export default {
   name: 'BlockOnMainPage',
   props: {
-    queue_data: {
+    turn_data: {
       type: Object,
       default() {
         return {}
